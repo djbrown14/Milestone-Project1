@@ -84,7 +84,7 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
     background-color: lightgray;
-    color: black;
+    color: gray;
 }
 
 /* Image section */
@@ -107,6 +107,16 @@ main {
     margin-right: 1rem;
 }
 
+/*Portfolio styles */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     background-color: gray;
@@ -121,6 +131,35 @@ main {
     font-size: 160%; 
     padding: 5%;
     color: white;
+ }
+
+ /* Media query: large or landscape phones (576px and up) */
+ @media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0.05rem;
+    }
+
+    /* Main Content */
+    main {
+        /* Push main content down to accomodate larger header */
+        margin-top: 79px;
+    }
+    
  }
 
 /* Media query: tablets and larger (768px and up) */
@@ -156,12 +195,24 @@ main {
      main {
         /* Push main content down to accomodate larger header */
         margin-top: 79px;
+
+    /* Portfolio styles */
+    #photos {
+        column-count: 3;
+        column-gap: 0;
     }
+}
 
     /* Larger devices (laptops and desktop, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
+        }
+
+        /*Portfolio styles */
+        #photos {
+            column-count: 4;
+            column-gap: 0;
         }
     }
 }
