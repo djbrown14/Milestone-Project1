@@ -49,6 +49,11 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
+.logo {
+    font-family: 'Sriracha', static;
+    color: white;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -84,14 +89,16 @@ main {
 
 /* Image section */
 .hero {
-    text-align: justify;
-    width: 50%;
-    height: 50%;
+    text-align: center;
 }
 
 .hero img {
     display: block;
     margin: 0 auto;
+}
+
+h4 {
+
 }
 
 /* Footer */
