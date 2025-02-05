@@ -78,11 +78,20 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    background-color: lightgray;
+    color: black;
 }
 
-#hero {
-    background: url('../images/hero.jpg') no-repeat center;
-    
+/* Image section */
+.hero {
+    text-align: justify;
+    width: 50%;
+    height: 50%;
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Footer */
