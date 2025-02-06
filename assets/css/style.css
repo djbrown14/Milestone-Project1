@@ -82,8 +82,6 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by header */
-    margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -94,13 +92,16 @@ main {
 /* Image section */
 .hero {
     text-align: center;
+    padding: 30px;
+    padding-top: 100px;
+    
 }
 
 .hero img {
     display: block;
     margin: 0 auto;
     width: 50%;
-    height: 50%;
+    height: 60%;
 }
 
 .downlaod {

@@ -1,65 +1,52 @@
-Hannah's Resume
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+Hannah's Resume (hb)
 
-This website is for the purpose of getting my information out for employers and employees to look at and hopefully lead me to gain a job within the web development industry. This website is for inspired individulas to see my website 
+This is my website called 'hb' which are my initals. I chose to use lowercase for the name of the website as it looks smart and i am trying to come across as business. My website has four pages including the landing page. Each page gives the user some information about me and who i am. This project was intended for employers to look at and hopefully give me a job after looking through as seeing i am good at what i can do. This is here to help aspiring developers see what can be achieved when you work hard. My target audience is mainly employers or people looking for workers, I have added my cv and a rough resume to grab the attention of users and hopefully get my foot in the door with web development.
 
-Responsice Mockup
+This website is for the purpose of getting my information out their for employers and employees to look at and hopefully lead me to gain a job within the web development industry. This website is for inspired individulas to see my website and let others know to hopefully land me a job. 
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-Existing Features
+In my website I have a home page where the user will be able to see me and the key information about me. At the top of the page there is a navigation bar which will take the user to the other pages. There is also a download cv and contact me page which will link to other pages if the user is too busy to look through the whole website. 
+The next page in the navigation bar is the about page. This page will include a little information about me and who i am. There will be a skills section which shows the user my skills that i have. At the bottom of this page, there are the services that i can provide a employer who is looking to gain a employee. 
+The third page is a portfolio page which shows some images of the projects which i have been involved with. The images are of different parts of a website to show of my skills as a well rounded web developer. 
+My last page is all about my cv which is downloadable from the homepage as well as a contact me form which employers can leave me a message. 
+
 Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Portfolio and Contact Me page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
 
-The landing page image
-
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
+The landing includes a photograph with text underneath to allow the user to see exactly who i am and my key information. This key information is my name, job title, email and phone number. At the bottom of this page there is a downloadable cv if the user would would like to look further. There is a link to the contact form as well to make it quick for the user if busy.
+This section introduces the user to me and shows them who i am.
 Landing Page
-
-Club Ethos Section
-
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
-
-Meetup Times section
-
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
 
 The Footer
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+The footer section includes links to the relevant social media sites for me. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media
-Footer
 
-Gallery
+About Me
 
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
+The about me will provide the user with a short paragraph introducing myself. 
 
-The Sign Up Page
+Portfolio
 
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-Sign Up
+The portfolio will provide the user with supporting images to see what i have created with the skills i have.
+This section is valuable to the user as they will be able to easily identify if i can fit into their company and have the right vision for them.
+Portfolio
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+The Contact Me Page
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+This page will allow the user to contact me and be directed to a new page where there will be a message saying 'i will get back shortly'. The user will be asked to submit their full name and email address and a message.
 
 Features Left to Implement
-Another feature idea
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+
+Testing
+
+
+I have made my website pleasing to the eye on both mobile and desktop. I have used media queries to 
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
@@ -72,6 +59,10 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+Lighthouse 
+
+Functional Testing
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
@@ -88,12 +79,14 @@ In this section you need to reference where you got your content, media and extr
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+The font used in this website are taken from Google fonts.
+Instructions on how to create a bar chart on the about page was taken from CW Joe channel on 3/2/25. 
 The icons in the footer were taken from Font Awesome
 Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
+The photos used on the home and portfolio page are taken from me.
+Some of the code i used was taken from past projects such as Love Running.
+
+
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
 Other General Project Advice
