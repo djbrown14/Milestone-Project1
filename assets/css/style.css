@@ -82,7 +82,11 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by header */
     margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
     background-color: lightgray;
     color: white;
 }
@@ -95,6 +99,8 @@ main {
 .hero img {
     display: block;
     margin: 0 auto;
+    width: 50%;
+    height: 50%;
 }
 
 .downlaod {
@@ -107,14 +113,95 @@ main {
     margin-right: 1rem;
 }
 
+/* About section */
+#skills {
+    padding: 30px;
+    background-color: #3a3a3a;
+    margin: 50px;
+}
+
+#my-skills {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/*Wrapper flex layout */
+.hbar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: left;
+}
+
+/* Individual bars */
+#HTML {
+    width: 90%;
+    background: red;
+}
+
+#CSS {
+    width: 90%;
+    background: blue;
+}
+
+#JavaScript {
+    width: 10%;
+    background: yellow;
+}
+
+#Github {
+    width: 70%;
+    background: green;
+}
+
+/* Bar spacing */
+.hbar div {
+    color: gray;
+    margin: 5px 0;
+    padding: 10px
+}
+
+
 /*Portfolio styles */
 #photos img {
     width: 100%;
-    line-height: 1em;
+    height: auto;
 }
 
 #photos {
     line-height: 0;
+}
+
+/* Contact form */
+#contact-form {
+    color: #ffffff;
+    background-color: #3a3a3a;
+    padding: 30px;
+}
+
+#contact-form>h2 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: #3a3a3a;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.send-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: gray;
+    color: #ffffff;
 }
 
 /* Footer */
@@ -189,6 +276,27 @@ main {
         font-size: 280%;
         line-height: 75px;
         margin: 0.05rem;
+    }
+
+    #contact {
+        background-position: center;
+        position: relative;
+    }
+
+    #contact-form {
+        max-width: 400px;
+        position: absolute;
+        top: 40px;
+        left: 40%;
+    }
+
+    .text-input:hover {
+        border-color: #ffffff;
+    }
+
+    .send-button:hover {
+        background-color: #3a3a3a;
+        color: #ffffff;
     }
 
     /* Main Content */
