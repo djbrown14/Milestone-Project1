@@ -5,13 +5,13 @@ This is my website called 'hb' which are my initals. I chose to use lowercase fo
 This website is for the purpose of getting my information out their for employers and employees to look at and hopefully lead me to gain a job within the web development industry. This website is for inspired individulas to see my website and let others know to hopefully land me a job. 
 
 Wireframes
-![about page](<about-wireframe.webp>)
-![chart for about page](<chart-wireframe.webp>)
-![hire page now contact page](<hirepage-wireframe.webp>)
-![home page for desktop](<home-wireframe-desktop.webp>)
-![home page for mobile](<home-wireframe.webp>)
-![portfolio page](<portfolio-wireframe.webp>)
-![services on about page](<services-wireframe.webp>)
+![about page](<about wireframe.webp>)
+![chart for about page](<chart wireframe.webp>)
+![hire page now contact page](<hirepage wireframe.webp>)
+![home page for desktop](<home wireframe desktop.webp>)
+![home page for mobile](<home wireframe.webp>)
+![portfolio page](<portfolio wireframe.webp>)
+![services on about page](<services wireframe.webp>)
 
 Features
 
