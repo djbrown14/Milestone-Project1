@@ -5,13 +5,13 @@ This is my website called 'hb' which are my initals. I chose to use lowercase fo
 This website is for the purpose of getting my information out their for employers and employees to look at and hopefully lead me to gain a job within the web development industry. This website is for inspired individulas to see my website and let others know to hopefully land me a job. 
 
 Wireframes
-![about page](<about wireframe.jpeg>)
-![chart for skills on about page](<chart wireframe.jpeg>)
-![hire page now contact page](<hirepage wireframe.jpeg>)
-![home page for desktop screens](<home wireframe desktop.jpeg>)
-![home page for mobile](<home wireframe.jpeg>)
-![portfolio page](<portfolio wireframe.jpeg>)
-![services for about page](<services wireframe.jpeg>)
+![about page](<about wireframe.webp>)
+![chart for about page](<chart wireframe.webp>)
+![hire page now contact page](<hirepage wireframe.webp>)
+![home page for desktop](<home wireframe desktop.webp>)
+![home page for mobile](<home wireframe.webp>)
+![portfolio page](<portfolio wireframe.webp>)
+![services on about page](<services wireframe.webp>)
 
 Features
 
@@ -82,10 +82,10 @@ No errors were found when passing through the official (Jigsaw) validator as sho
 Lighthouse 
 Here are the images for my lighthouse score taken for a desktop device. All scores are in the 90% category.
 
-![portfolio lighthouse score](<lighthouse portfolio.png>)
-![contact lighthouse score](<lighthouse contact.png>)
-![home lighthouse score](<home lighthouse.png>)
-![about lighthouse score](<lighthouse about.png>)
+![lighthouse score for home page](<home lighthouse.webp>)
+![lighthouse score for about page](<lighthouse about.webp>)
+![lighthouse score for contact page](<lighthouse contact.webp>)
+[lighthouse score for portfolio](<lighthouse portfolio.webp>)
 
 Functional Testing
 
