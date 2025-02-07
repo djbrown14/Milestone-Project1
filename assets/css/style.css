@@ -176,15 +176,11 @@ table {
 }
 
 /* Contact form */
-#contact-form {
+#contact {
     color: #ffffff;
     background-color: #3a3a3a;
     padding: 30px;
     margin: 30px;
-}
-
-#contact-form>h2 {
-    margin-bottom: 20px;
 }
 
 .text-input {
