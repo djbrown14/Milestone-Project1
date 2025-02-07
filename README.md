@@ -4,6 +4,15 @@ This is my website called 'hb' which are my initals. I chose to use lowercase fo
 
 This website is for the purpose of getting my information out their for employers and employees to look at and hopefully lead me to gain a job within the web development industry. This website is for inspired individulas to see my website and let others know to hopefully land me a job. 
 
+Wireframes
+![about page](<about wireframe.jpeg>)
+![chart for skills on about page](<chart wireframe.jpeg>)
+![hire page now contact page](<hirepage wireframe.jpeg>)
+![home page for desktop screens](<home wireframe desktop.jpeg>)
+![home page for mobile](<home wireframe.jpeg>)
+![portfolio page](<portfolio wireframe.jpeg>)
+![services for about page](<services wireframe.jpeg>)
+
 Features
 
 In my website I have a home page where the user will be able to see me and the key information about me. At the top of the page there is a navigation bar which will take the user to the other pages. There is also a download cv and contact me page which will link to other pages if the user is too busy to look through the whole website. 
@@ -27,79 +36,85 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 About Me
 
-The about me will provide the user with a short paragraph introducing myself. 
+The about me will provide the user with a short paragraph introducing myself. This page will also have my skills in the form of a bar chart. I will include a section about my services which i can provide the user in a table format for easily viewing. 
 
 Portfolio
 
 The portfolio will provide the user with supporting images to see what i have created with the skills i have.
 This section is valuable to the user as they will be able to easily identify if i can fit into their company and have the right vision for them.
-Portfolio
 
 The Contact Me Page
 
-This page will allow the user to contact me and be directed to a new page where there will be a message saying 'i will get back shortly'. The user will be asked to submit their full name and email address and a message.
+This page will allow the user to contact me and be directed to a new page where there will be a message saying 'i will get back shortly'. The user will be asked to submit their full name and email address and a message. There will also be a simple resume with all of my latest experience and skills. 
 
 Features Left to Implement
-Download cv and contact me unable to seperate them
+Download cv and contact me
 I wanted to have the download cv on left and contact me on the right side of the home page but i didnt have enough time to fix this problem.
 
 Links to resume and contact information
-I did not have enough time to add the links that would take the user from the home page to the contact page.
+I did not have enough time to add the links that would take the user from the home page to the contact page and same with the resume.
 
 General layout with larger screens
-I was unable to get the contact section and the resume side by side when viewing on a larger device for better use.
+I was unable to get the contact section and the resume side by side when viewing on a larger device for better use. This is the same for the home page as seen in my wireframes.
 
 My services table looks unappealing
 I ran out to time to be able to give my services table a better style. My aim was just to get the information out on the page.
 
 Contact page submit
-I have not been able to reate a secondary page for the viewer to see once they submit in the contact section.
+I have not been able to create a secondary page for the viewer to see once they submit in the contact section.
 
 Testing
 
 I have made my website pleasing to the eye on both mobile and desktop. I have used media queries to change the layout of my website which is pleasing to the eyes. In the portfolio section i have increased the image columns to give the user a better experience. 
 
-Some of my images are not loading every time the website is lauched but unsure if this is due to my internet speed. Download cv and contact me is sitting above each other whether as i would of liked them on either side of the page to make it look more peasing to the viewer.
-
 Validator Testing
 HTML
-No errors were returned when passing through the official W3C validator
+No errors were returned when passing through the official W3C validator as shown by the images below.
 CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+No errors were found when passing through the official (Jigsaw) validator as shown by the image below.
+
+![about validation](<assets/images/about.html validation.png>)
+![contact validation](<assets/images/contact.html validation.png>)
+![index validation](<assets/images/index.html validation.png>)
+![portfolio validation](<assets/images/portfolio.html validation.png>)
+![CSS validation](<assets/images/CSS validation.png>)
 
 Lighthouse 
+Here are the images for my lighthouse score taken for a desktop device. All scores are in the 90% category.
+
+![portfolio lighthouse score](<lighthouse portfolio.png>)
+![contact lighthouse score](<lighthouse contact.png>)
+![home lighthouse score](<home lighthouse.png>)
+![about lighthouse score](<lighthouse about.png>)
 
 Functional Testing
 
+action                    behaviour                    pass/fail
+click on facebook link    opens in a new tab           pass
+click on x link           opens in a new tab           pass
+click on youtube link     opens in a new tab           pass
+click on instagram link   opens in a new tab           pass
+click on nav bar icon     opens up nav bar             pass
+click on about page       opens about page             pass
+click on portfolio page   opens portfolio page         pass
+click on contact page     opens contact page           pass
+click on submit button    direct to new page           fail
+click to download cv      go to cv on contact page     fail
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+Here is how i deployed my website on Github.
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
-
-Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
+The live link can be found here - 
 
 Content
 The font used in this website are taken from Google fonts.
-Instructions on how to create a bar chart on the about page was taken from CW Joe channel accessed on 3/2/25. 
+Instructions on how to create a bar chart on the about page was taken from CW Joe channel 'https://youtu.be/8ANP3LTStZg?si=A-p498-BQ4SlP5R3' accessed on 3/2/25. 
 Help resize my images form website 'https://imageresizer.com/' accessed on 7/2/25.
 Instructions on creating a resume form website 'https://codepen.io/emzarts/pen/OXzmym' accessed on 7/2/25.
 The icons in this website were taken from Font Awesome Media.
 The photos used on the home and portfolio page are taken from me and from past projects.
 Some of the code i used was taken from past projects such as Love Running.
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-
-
-
-
-
