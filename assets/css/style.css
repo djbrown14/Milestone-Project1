@@ -121,21 +121,11 @@ main {
     margin-bottom: 10px;
 }
 
-table {
-    width: 90%;
-    border-spacing: 5px;
-    background-color: #3a3a3a;
-    padding: 30px;
-    margin: 25px;
-    text-align: center;
-}
-
 /*Wrapper flex layout */
 .hbar {
     width: 50%;
     flex-direction: column;
     padding: 10px;
-    margin: left;
 }
 
 /* Individual bars */
@@ -166,6 +156,14 @@ table {
     padding: 10px
 }
 
+/* Services section */
+table {
+    background-color: #3a3a3a;
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+}
+
 /*Portfolio styles */
 #photos img {
     width: 100%;
@@ -182,8 +180,7 @@ table {
     color: #ffffff;
     background-color: #3a3a3a;
     padding: 30px;
-    position: center;
-
+    margin: 30px;
 }
 
 #contact-form>h2 {
@@ -208,6 +205,14 @@ table {
     font-size: 100%;
     background-color: gray;
     color: #ffffff;
+}
+
+/*Resume section */
+#resume {
+    color: #ffffff;
+    padding: 30px;
+    background-color: #3a3a3a;
+    margin: 30px;
 }
 
 /* Footer */
@@ -249,9 +254,16 @@ table {
     } 
 
     #contact-form {
-        max-width: 400px;
-        position: center;
+        max-width: 300px;
+        padding: 25px;
     }
+
+    #resume-form {
+        padding: 25px;
+        background-color: #3a3a3a;
+        max-width: 300px;
+    }
+
  }
 
 /* Media query: tablets and larger (768px and up) */
@@ -289,15 +301,12 @@ table {
         margin: 0.05rem;
     }
 
-    #contact {
-        background-position: center;
-        position: relative;
+    #contact-form{
+        max-width: 300px;
     }
 
-    #contact-form {
-        max-width: 400px;
-        position: center;
-        margin: 40px;
+    #resume-form {
+        max-width: 300px;
     }
 
     .text-input:hover {
@@ -330,8 +339,11 @@ table {
         }
 
         #contact-form {
-            max-width: 400px;
-            position: center;
+            max-width: 300px;
+        }
+
+        #resume-form {
+            max-width: 300px;
         }
     }
 }

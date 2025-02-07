@@ -40,17 +40,26 @@ The Contact Me Page
 This page will allow the user to contact me and be directed to a new page where there will be a message saying 'i will get back shortly'. The user will be asked to submit their full name and email address and a message.
 
 Features Left to Implement
+Download cv and contact me unable to seperate them
+I wanted to have the download cv on left and contact me on the right side of the home page but i didnt have enough time to fix this problem.
 
+Links to resume and contact information
+I did not have enough time to add the links that would take the user from the home page to the contact page.
 
+General layout with larger screens
+I was unable to get the contact section and the resume side by side when viewing on a larger device for better use.
+
+My services table looks unappealing
+I ran out to time to be able to give my services table a better style. My aim was just to get the information out on the page.
+
+Contact page submit
+I have not been able to reate a secondary page for the viewer to see once they submit in the contact section.
 
 Testing
 
+I have made my website pleasing to the eye on both mobile and desktop. I have used media queries to change the layout of my website which is pleasing to the eyes. In the portfolio section i have increased the image columns to give the user a better experience. 
 
-I have made my website pleasing to the eye on both mobile and desktop. I have used media queries to 
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Some of my images are not loading every time the website is lauched but unsure if this is due to my internet speed. Download cv and contact me is sitting above each other whether as i would of liked them on either side of the page to make it look more peasing to the viewer.
 
 Validator Testing
 HTML
@@ -64,6 +73,7 @@ Lighthouse
 
 Functional Testing
 
+
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
@@ -76,31 +86,20 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 Content
 The font used in this website are taken from Google fonts.
-Instructions on how to create a bar chart on the about page was taken from CW Joe channel on 3/2/25. 
-The icons in the footer were taken from Font Awesome
-Media
-The photos used on the home and portfolio page are taken from me.
+Instructions on how to create a bar chart on the about page was taken from CW Joe channel accessed on 3/2/25. 
+Help resize my images form website 'https://imageresizer.com/' accessed on 7/2/25.
+Instructions on creating a resume form website 'https://codepen.io/emzarts/pen/OXzmym' accessed on 7/2/25.
+The icons in this website were taken from Font Awesome Media.
+The photos used on the home and portfolio page are taken from me and from past projects.
 Some of the code i used was taken from past projects such as Love Running.
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
-Other General Project Advice
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
 
-One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
 
-Make sure to keep the messages in the imperative mood
-When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
 
-For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
 
-Writing Your Best Code
-HTML & CSS Coding Best Practices
-Google HTML/CSS Style Guide
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
