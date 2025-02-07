@@ -105,14 +105,9 @@ main {
     height: 60%;
 }
 
-.downlaod {
-    text-align: left;
-    margin-left: 1rem;
-}
-
-.contact {
-    text-align: right;
-    margin-right: 1rem;
+.downlaod, .contact {
+    margin: 1rem;
+    text-align: justify;
 }
 
 /* About section */
