@@ -85,7 +85,7 @@ Here are the images for my lighthouse score taken for a desktop device. All scor
 ![lighthouse score for home page](<home lighthouse.webp>)
 ![lighthouse score for about page](<lighthouse about.webp>)
 ![lighthouse score for contact page](<lighthouse contact.webp>)
-[lighthouse score for portfolio](<lighthouse portfolio.webp>)
+![lighthouse score for portfolio](<lighthouse portfolio.webp>)
 
 Functional Testing
 
