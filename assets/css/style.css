@@ -94,8 +94,7 @@ main {
 .hero {
     text-align: center;
     padding: 30px;
-    padding-top: 100px;
-    
+    padding-top: 100px;  
 }
 
 .hero img {
@@ -112,14 +111,24 @@ main {
 
 /* About section */
 #skills {
-    padding: 30px;
+    padding: 25px;
     background-color: #3a3a3a;
-    margin: 50px;
+    margin: 30px;
 }
 
 #my-skills {
     text-align: left;
     margin-bottom: 10px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #3a3a3a;
+    padding: 30px;
+    margin: 25px;
+    text-align: center;
 }
 
 /*Wrapper flex layout */
@@ -239,6 +248,11 @@ main {
         line-height: 75px;
         margin: 0.05rem;
     } 
+
+    #contact-form {
+        max-width: 400px;
+        position: center;
+    }
  }
 
 /* Media query: tablets and larger (768px and up) */
@@ -283,9 +297,8 @@ main {
 
     #contact-form {
         max-width: 400px;
-        position: absolute;
-        top: 40px;
-        left: 40%;
+        position: center;
+        margin: 40px;
     }
 
     .text-input:hover {
@@ -313,6 +326,11 @@ main {
         #photos {
             column-count: 2;
             column-gap: 0;
+        }
+
+        #contact-form {
+            max-width: 400px;
+            position: center;
         }
     }
 }
