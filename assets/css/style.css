@@ -170,6 +170,7 @@ table {
 #photos img {
     width: 100%;
     height: auto;
+    padding: 10px;
 }
 
 #photos {
@@ -229,7 +230,8 @@ table {
  @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
-        column-gap: 0;
+        column-gap: 10px;
+        padding: 10px;
     }
 
     #menu > li {
@@ -309,8 +311,9 @@ table {
 
     /* Portfolio styles */
     #photos {
-        column-count: 2;
-        column-gap: 0;
+        column-count: 3;
+        column-gap: 10px;
+        padding: 10px;
     }
 
     /* Larger devices (laptops and desktop, 992px and up) */
@@ -321,8 +324,9 @@ table {
 
         /*Portfolio styles */
         #photos {
-            column-count: 2;
-            column-gap: 0;
+            column-count: 4;
+            column-gap: 10px;
+            padding: 10px;
         }
 
         #contact-form {
