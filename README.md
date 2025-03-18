@@ -99,7 +99,7 @@ click on about page       opens about page             pass
 click on portfolio page   opens portfolio page         pass
 click on contact page     opens contact page           pass
 click on submit button    direct to new page           fail
-click to download cv      go to cv on contact page     fail
+click to download cv      go to cv on contact page     pass
 
 Deployment
 Here is how i deployed my website on Github.
