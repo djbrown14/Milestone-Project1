@@ -153,11 +153,12 @@ main {
 }
 
 /* Services section */
-table {
-    background-color: #3a3a3a;
-    padding: 10px;
-    margin: 25px;
-    text-align: center;
+.card {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+    color: #3a3a3a;
+    border-radius: 20px;
 }
 
 /*Portfolio styles */
@@ -234,6 +235,11 @@ table {
 
  /* Media query: large or landscape phones (576px and up) */
  @media screen and (min-width: 576px) {
+    .card {
+        column-count: 3;
+        column-gap: 20px;
+    }
+    
     #photos {
         column-count: 2;
         column-gap: 10px;
