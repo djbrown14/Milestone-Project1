@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: white;
-    font-family: 'Sriracha', static;
+    font-family: "Sriracha", static;
 }
 
 /* Header */
@@ -50,7 +50,7 @@ header a {
 }
 
 .logo {
-    font-family: 'Sriracha', static;
+    font-family: "Sriracha", static;
     color: white;
 }
 
@@ -103,7 +103,6 @@ main {
     width: 50%;
     height: 60%;
 }
-
 
 
 /* About section */
