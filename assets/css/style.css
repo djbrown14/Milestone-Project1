@@ -167,7 +167,11 @@ p {
 }
 
 /* Services section */
-
+.card {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 
 /*Portfolio styles */
@@ -204,6 +208,11 @@ p {
     font-size: 100%;
     background-color: gray;
     color: #ffffff;
+}
+
+/*Success page */
+#success {
+    padding: 40px;
 }
 
 /*Resume section */
