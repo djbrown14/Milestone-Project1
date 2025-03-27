@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Title-->
-    <title>Resume</title>
+    <title>Thank You</title>
     <!-- bootstrap 5 css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
+
     <!-- Header -->
     <header>
         <a href="index.html">
@@ -23,29 +22,24 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
            <ul id="menu">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="" class="active">Home</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="" class="active">Portfolio</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="contact.html">Contact</a></li>
            </ul>
         </nav>
     </header>
-
-    <!-- Main Content-->
-    <main>
-        <h2>Portfolio</h2>
-            <div id="photos">
-                <img src="assets/images/coffeehouse-contact.webp" alt="Coffeehouse contact page">
-                <img src="assets/images/coffeehouse-drinks.webp" alt="Coffeehouse drinks page">
-                <img src="assets/images/coffeehouse-form.webp" alt="Coffeehouse form">
-                <img src="assets/images/coffeehouse-reasons-to-love.webp" alt="Coffeehouse reason to love page">
-                <img src="assets/images/coffeehouse-win-a-year.webp" alt="Coffeehouse win a year page">
-                <img src="assets/images/love-running-navbar.webp" alt="Love Running nav bar">
-                <img src="assets/images/love-running-reasons.webp" alt="Love Running reasons page">
-                <img src="assets/images/mei-wong.webp" alt="Mei Wong page">
-            </div>
-    </main>
-
+    
+    <!-- success message for users who successfully submit a form -->
+    <main id="success" class="container section text-center">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8">
+            <h1 class="display-3">Thank you!</h1>
+            <p class="lead">I will get back to you soon.</p>
+            <a href="index.html" class="btn btn-primary mb-5">Return to the home page</a>
+          </div>
+        </div>
+      </main>
 
     <!-- Footer -->
     <footer>
@@ -57,8 +51,5 @@
         </ul>
     </footer>
 
-    <!--Awesome Font Kit-->
-    <script src="https://kit.fontawesome.com/dd90f97167.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
