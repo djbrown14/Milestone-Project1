@@ -66,21 +66,21 @@ CSS
 No errors were found when passing through the official (Jigsaw) validator as shown by the image below.
 
 
-![about validation](<>)
-![contact validation](<>)
-![index validation](<>)
-![portfolio validation](<>)
-![success validation](<>)
-![CSS validation](<>)
+![about validation](<assets/images/about.validation.webp>)
+![contact validation](<assets/images/contact.validation.webp>)
+![index validation](<assets/images/index.validation.webp>)
+![portfolio validation](<assets/images/portfolio.validation.webp>)
+![success validation](<assets/images/success.validation.webp>)
+![CSS validation](<assets/images/css.validation.webp>)
 
 Lighthouse 
 Here are the images for my lighthouse score taken for a desktop device. All scores are in the 90% category.
 
-![lighthouse score for home page](<>)
-![lighthouse score for about page](<>)
-![lighthouse score for contact page](<>)
-![lighthouse score for portfolio](<>)
-![lighthouse score for success page](<>)
+![lighthouse score for home page](<assets/images/lighthouse.home.webp>)
+![lighthouse score for about page](<assets/images/lighthouse.about.webp>)
+![lighthouse score for contact page](<assets/images/lighthouse.contact.webp>)
+![lighthouse score for portfolio](<assets/images/lighthouse.portfolio.webp>)
+![lighthouse score for success page](<assets/images/lighthouse.success.webp>)
 
 Functional Testing
 
@@ -94,7 +94,9 @@ click on about page       opens about page             pass
 click on portfolio page   opens portfolio page         pass
 click on contact page     opens contact page           pass
 click on submit button    direct to new page           pass
-click to download cv      go to cv on contact page     pass
+click on back to home     opens home page              pass
+click to go to cv         go to cv on contact page     pass
+click on download cv      go to portfolio page         pass
 
 Deployment
 Here is how i deployed my website on Github.
@@ -103,7 +105,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://djbrown14.github.io/Milestone-Project1/
+The live link can be found here - http://djbrown14.github.io/Milestone-Project1/
+
 
 Content
 The font used in this website are taken from Google fonts.
@@ -113,3 +116,4 @@ Instructions on creating a resume form website 'https://codepen.io/emzarts/pen/O
 The icons in this website were taken from Font Awesome Media.
 The photos used on the home and portfolio page are taken from me and from past projects.
 Some of the code i used was taken from past projects such as Love Running.
+I have used some Bootstrap elements in my project to make it look better. 
