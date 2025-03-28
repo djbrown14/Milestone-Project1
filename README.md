@@ -1,6 +1,6 @@
 Hannah's Resume (hb)
 
-This is my website called 'hb' which are my initals. I chose to use lowercase for the name of the website as it looks smart and i am trying to come across as business. My website has four pages including the landing page. Each page gives the user some information about me and who i am. This project was intended for employers to look at and hopefully give me a job after looking through as seeing i am good at what i can do. This is here to help aspiring developers see what can be achieved when you work hard. My target audience is mainly employers or people looking for workers, I have added my cv and a rough resume to grab the attention of users and hopefully get my foot in the door with web development.
+This is my website called 'hb' which are my initals. I chose to use lowercase for the name of the website as it looks smart and i am trying to come across as business. My website has four pages including the landing page. Each page gives the user some information about me and who i am. This project was intended for employers to look at and hopefully give me a job after looking through and seeing i am good at what i can do. This is here to help aspiring developers see what can be achieved when you work hard. My target audience is mainly employers or people looking for workers, I have added my cv and a rough resume to grab the attention of users and hopefully get my foot in the door with web development.
 
 This website is for the purpose of getting my information out their for employers and employees to look at and hopefully lead me to gain a job within the web development industry. This website is for inspired individulas to see my website and let others know to hopefully land me a job. 
 
@@ -15,17 +15,17 @@ Wireframes
 
 Features
 
-In my website I have a home page where the user will be able to see me and the key information about me. At the top of the page there is a navigation bar which will take the user to the other pages. There is also a download cv and contact me page which will link to other pages if the user is too busy to look through the whole website. 
+In my website I have a home page where the user will be able to see me and the key information about me. At the top of the page there is a navigation bar which will take the user to the other pages. There is also a go to cv and contact me button which will link to the contact page if the user is too busy to look through the whole website. 
 The next page in the navigation bar is the about page. This page will include a little information about me and who i am. There will be a skills section which shows the user my skills that i have. At the bottom of this page, there are the services that i can provide a employer who is looking to gain a employee. 
 The third page is a portfolio page which shows some images of the projects which i have been involved with. The images are of different parts of a website to show of my skills as a well rounded web developer. 
-My last page is all about my cv which is downloadable from the homepage as well as a contact me form which employers can leave me a message. 
+My last page is all about my cv which users can initially access from the home page but there is also a button which will take the user to the next page. There is a contact me form which employers can leave me a message and will be redirected to a extra page letting the employer know the information has been submitted and a link back to the home page.
 
 Navigation Bar
 
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Portfolio and Contact Me page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-The landing includes a photograph with text underneath to allow the user to see exactly who i am and my key information. This key information is my name, job title, email and phone number. At the bottom of this page there is a downloadable cv if the user would would like to look further. There is a link to the contact form as well to make it quick for the user if busy.
+The landing includes a photograph with text underneath to allow the user to see exactly who i am and my key information. This key information is my name, job title, email and phone number. At the bottom of this page there is a go to cv if the user would like to look further. There is a link to the contact form as well to make it quick for the user if busy.
 This section introduces the user to me and shows them who i am.
 Landing Page
 
@@ -36,7 +36,7 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 About Me
 
-The about me will provide the user with a short paragraph introducing myself. This page will also have my skills in the form of a bar chart. I will include a section about my services which i can provide the user in a table format for easily viewing. 
+The about me will provide the user with a short paragraph introducing myself. This page will also have my skills in the form of a bar chart. I will include a section about my services which i can provide the user in a card form for easy viewing. 
 
 Portfolio
 
@@ -45,23 +45,15 @@ This section is valuable to the user as they will be able to easily identify if 
 
 The Contact Me Page
 
-This page will allow the user to contact me and be directed to a new page where there will be a message saying 'i will get back shortly'. The user will be asked to submit their full name and email address and a message. There will also be a simple resume with all of my latest experience and skills. 
+This page will allow the user to contact me and be directed to a new page where there will be a message saying 'Thank you! I will get back to you shortly'. The user will be asked to submit their name, email address and a message. There will also be a simple resume with all of my latest experience and skills. There will be a button at the end for users to click which will take them to the next page.
 
 Features Left to Implement
-Download cv and contact me
-I wanted to have the download cv on left and contact me on the right side of the home page but i didnt have enough time to fix this problem.
-
-Links to resume and contact information
-I did not have enough time to add the links that would take the user from the home page to the contact page and same with the resume.
 
 General layout with larger screens
 I was unable to get the contact section and the resume side by side when viewing on a larger device for better use. This is the same for the home page as seen in my wireframes.
 
-My services table looks unappealing
-I ran out to time to be able to give my services table a better style. My aim was just to get the information out on the page.
-
-Contact page submit
-I have not been able to create a secondary page for the viewer to see once they submit in the contact section.
+My service cards looks unappealing on bigger screens
+My service cards are not formatting in the way i would like when on bigger screens. 
 
 Testing
 
@@ -73,19 +65,22 @@ No errors were returned when passing through the official W3C validator as shown
 CSS
 No errors were found when passing through the official (Jigsaw) validator as shown by the image below.
 
-![about validation](<assets/images/about.html validation.png>)
-![contact validation](<assets/images/contact.html validation.png>)
-![index validation](<assets/images/index.html validation.png>)
-![portfolio validation](<assets/images/portfolio.html validation.png>)
-![CSS validation](<assets/images/CSS validation.png>)
+
+![about validation](<>)
+![contact validation](<>)
+![index validation](<>)
+![portfolio validation](<>)
+![success validation](<>)
+![CSS validation](<>)
 
 Lighthouse 
 Here are the images for my lighthouse score taken for a desktop device. All scores are in the 90% category.
 
-![lighthouse score for home page](<home lighthouse.webp>)
-![lighthouse score for about page](<lighthouse about.webp>)
-![lighthouse score for contact page](<lighthouse contact.webp>)
-![lighthouse score for portfolio](<lighthouse portfolio.webp>)
+![lighthouse score for home page](<>)
+![lighthouse score for about page](<>)
+![lighthouse score for contact page](<>)
+![lighthouse score for portfolio](<>)
+![lighthouse score for success page](<>)
 
 Functional Testing
 
@@ -98,7 +93,7 @@ click on nav bar icon     opens up nav bar             pass
 click on about page       opens about page             pass
 click on portfolio page   opens portfolio page         pass
 click on contact page     opens contact page           pass
-click on submit button    direct to new page           fail
+click on submit button    direct to new page           pass
 click to download cv      go to cv on contact page     pass
 
 Deployment
